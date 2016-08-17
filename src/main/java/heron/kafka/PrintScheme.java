@@ -1,7 +1,7 @@
 package heron.kafka;
 
-import backtype.storm.tuple.Fields;
-import backtype.storm.spout.MultiScheme;
+import org.apache.storm.spout.MultiScheme;
+import org.apache.storm.tuple.Fields;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
